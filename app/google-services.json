@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "238978646952",
+    "project_id": "clinic-app-melroy",
+    "storage_bucket": "clinic-app-melroy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238978646952:android:84a638a295f88a880e939d",
+        "android_client_info": {
+          "package_name": "com.example.hospital_ms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238978646952-8o9q82k8fppv8gagb80i7q0djj75nb61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDklJ-v9hxsZgTcbkj4VlGZnC28Y5Uy9_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238978646952-8o9q82k8fppv8gagb80i7q0djj75nb61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

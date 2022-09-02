@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#633C3C"
+    android:backgroundTint="#CD97AA"
+    tools:context=".adminhome">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="@font/aclonica"
+        android:text="HEAL-WAY"
+        android:textColor="#187CCC"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="164dp"
+        android:text="Your clinic app"
+        android:textColor="#046ABA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="84dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/booking_system"
+        android:textColor="#424D88"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAllUsers"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="90dp"
+        android:backgroundTint="#424D88"
+        android:scaleX="1"
+        android:text="My appointments"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAddPresc2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <Button
+        android:id="@+id/btnMypresc"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="90dp"
+        android:backgroundTint="#424D88"
+        android:scaleX="1"
+        android:text="My prescriptions"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAddPresc2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.684"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <Button
+        android:id="@+id/buttonAddPresc2"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="90dp"
+        android:backgroundTint="#424D88"
+        android:scaleX="1"
+        android:text=" Book Appointment"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAllUsers" />
+
+    <Button
+        android:id="@+id/btnLout"
+        android:layout_width="74dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#424D88"
+        android:text="Logout"
+        android:textColor="#F4EFEF"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

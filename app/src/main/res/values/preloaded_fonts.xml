@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/adamina</item>
+        <item>@font/alike_angular</item>
+        <item>@font/amiko</item>
+        <item>@font/andika_new_basic</item>
+        <item>@font/archivo_black</item>
+        <item>@font/average</item>
+        <item>@font/average_sans</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/castoro</item>
+    </array>
+</resources>
